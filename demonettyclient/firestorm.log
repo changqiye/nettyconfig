@@ -1,0 +1,378 @@
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:49614<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Mon, 09 Nov 2020 20:58:28 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.141.94"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 13
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Mon, 09 Nov 2020 20:58:28 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:51056<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 14[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Mon, 09 Nov 2020 21:47:10 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.137.152"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 14
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Mon, 09 Nov 2020 21:47:10 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:57294<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 01 Dec 2020 09:27:12 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.141.94"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 13
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 01 Dec 2020 09:27:12 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:58233<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 01 Dec 2020 10:35:38 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.141.94"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 13
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 01 Dec 2020 10:35:38 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:58346<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 01 Dec 2020 10:38:11 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.141.94"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 13
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 01 Dec 2020 10:38:11 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:58412<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-1 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Content-Length: 13[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Date: Tue, 01 Dec 2020 10:38:11 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "10.181.141.94"
+DEBUG main org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-1 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-1 << Content-Length: 13
+DEBUG main org.apache.http.headers - http-outgoing-1 << Date: Tue, 01 Dec 2020 10:38:11 GMT
+DEBUG main org.apache.http.headers - http-outgoing-1 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:58489<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 14[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Tue, 01 Dec 2020 10:38:19 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "10.181.137.163"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 14
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Tue, 01 Dec 2020 10:38:19 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG main org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:58555<->10.181.137.152:8183
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-1 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Host: 10.181.137.152:8183
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG main org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Content-Length: 14[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Date: Tue, 01 Dec 2020 10:38:19 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-1 << "10.181.137.152"
+DEBUG main org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 
+DEBUG main org.apache.http.headers - http-outgoing-1 << Content-Type: text/plain;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-1 << Content-Length: 14
+DEBUG main org.apache.http.headers - http-outgoing-1 << Date: Tue, 01 Dec 2020 10:38:19 GMT
+DEBUG main org.apache.http.headers - http-outgoing-1 << Keep-Alive: timeout=60
+DEBUG main org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG main org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+DEBUG Thread-0 org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Thread-0 org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG Thread-0 org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://10.181.137.152:8183
+DEBUG Thread-0 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /10.181.137.152:8183
+DEBUG Thread-0 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.181.140.14:54266<->10.181.137.152:8183
+DEBUG Thread-0 org.apache.http.impl.execchain.MainClientExec - Executing request GET /Example/getServerAddress HTTP/1.1
+DEBUG Thread-0 org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Thread-0 org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 >> GET /Example/getServerAddress HTTP/1.1
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 >> Host: 10.181.137.152:8183
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "GET /Example/getServerAddress HTTP/1.1[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "Host: 10.181.137.152:8183[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_181)[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "Content-Type: text/plain;charset=UTF-8[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "Content-Length: 14[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "Date: Tue, 01 Dec 2020 16:50:52 GMT[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Thread-0 org.apache.http.wire - http-outgoing-0 << "10.181.137.163"
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << Content-Type: text/plain;charset=UTF-8
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << Content-Length: 14
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << Date: Tue, 01 Dec 2020 16:50:52 GMT
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+DEBUG Thread-0 org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG Thread-0 org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://10.181.137.152:8183] can be kept alive for 60.0 seconds
+DEBUG Thread-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://10.181.137.152:8183][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+DEBUG Thread-0 org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG Thread-0 org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
